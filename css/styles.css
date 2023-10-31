@@ -17,7 +17,7 @@ body {
     background-color: #FFFFFF;
     color: #434455;
     margin: 0 auto;
-    max-width: 1440px;
+    width: 1440px;
 }
 
 /* Header */
@@ -641,6 +641,14 @@ img {
     height: 100%;
 }
 
+.modal-button-close:hover + .modal-button-close-icon {
+    fill: #ffffff;
+}
+
+.modal-button-close:focus + .modal-button-close-icon {
+    fill: #ffffff;
+}
+
 .modal-button-close-icon:hover,
 .modal-button-close-icon:focus {
     fill: #ffffff;
@@ -658,6 +666,10 @@ img {
 
 .modal-form-container {
     margin-bottom: 8px;
+}
+
+.modal-form-container-comment {
+    margin-bottom: 16px;
 }
 
 .modal-form-label-name {
@@ -723,7 +735,7 @@ img {
 }
 
 .modal-form-container-checkbox {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .modal-form-container-checkbox-label {
