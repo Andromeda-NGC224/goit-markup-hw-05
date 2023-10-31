@@ -754,7 +754,7 @@ img {
     fill: transparent;
 }
 
-.modal-form-container-checkbox-input:checked+.modal-form-container-checkbox-label-span {
+.visually-hidden:checked + .modal-form-container-checkbox-label > .modal-form-container-checkbox-label-span {
     background-color: #404bbf;
     fill: #F4F4FD;
     border: none;
