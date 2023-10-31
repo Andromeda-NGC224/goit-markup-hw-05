@@ -550,6 +550,7 @@ body {
 .form-footer-button {
     min-width: 165px;
     height: 40px;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -640,9 +641,9 @@ img {
     height: 100%;
 }
 
-.modal-button-close-icon:hover.
+.modal-button-close-icon:hover,
 .modal-button-close-icon:focus {
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .modal-text {
@@ -722,7 +723,7 @@ img {
 }
 
 .modal-form-container-checkbox {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .modal-form-container-checkbox-label {
@@ -745,6 +746,7 @@ img {
 }
 
 .modal-form-container-checkbox-input:checked + .modal-form-container-checkbox-label-span {
+    background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
 }
