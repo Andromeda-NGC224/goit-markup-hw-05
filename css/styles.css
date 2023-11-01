@@ -17,6 +17,7 @@ body {
     background-color: #FFFFFF;
     color: #434455;
     margin: 0 auto;
+    max-width: 1440px;
 }
 
 /* Header */
@@ -27,8 +28,18 @@ body {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header-class .container {
+.header-container {
     display: flex;
+    box-sizing: border-box;
+    width: 1158px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container {
     box-sizing: border-box;
     width: 1158px;
     justify-content: center;
@@ -172,6 +183,8 @@ body {
     color: #ffffff;
     max-width: 496px;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-section-hero-button {
@@ -732,6 +745,7 @@ img {
 
 .modal-form-container-checkbox {
     margin-bottom: 24px;
+    
 }
 
 .modal-form-container-checkbox-label {
@@ -750,7 +764,9 @@ img {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;
+    fill: transparent; 
+    margin-right: 8px;
+
 }
 
 .visually-hidden:checked + .modal-form-container-checkbox-label > .modal-form-container-checkbox-label-span {
